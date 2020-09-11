@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(145, 214, 145) !important;
+    font-family: Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    color: #212529;
+}
+.container{
+    background-color: #ffffff !important;
+    padding: 1.5rem 3rem;
+    margin-top: 1.5rem !important;
+    margin: 0 auto;
+    max-width: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 20px;
+}
+.welcome{
+    width: 50%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px auto;
+}
+.welcome img{
+    width: 300px;
+}
+.main-page{
+    background: url(tronero.jpg);
+    background-position: center;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn-register{
+    background: #ffd36b;
+    line-height: 1.875rem;
+    width: 400px;
+    padding: 0.625rem;
+    font-size: 1.25rem;
+    border-radius: 0.625rem;
+    opacity: .9;
+    margin: 0.625rem 0;
+    transition: .5s ease all;
+    text-align: center;
+}
+.btn-register:hover{
+    background: rgba(255, 211, 107, 0.5);
+    border: 2.5px solid #ffd36b;
+    transform: scale(1.1);
+    opacity: 1;
+}
+.btn-register a{
+    color: #212529;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+footer{
+    color: #212529;
+    width: 100%;
+    text-align: right;
+    font-style: italic;
+    margin-top: 5px;
+}

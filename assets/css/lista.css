@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(145, 214, 145) !important;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+h1{
+    color:  rgb(0, 0, 0) !important;
+}

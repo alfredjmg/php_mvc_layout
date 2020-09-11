@@ -1,0 +1,45 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    color: #fff;
+    border-color: #7B1FA2;
+}
+
+.custom-control-input:checked~.custom-control-label.green::before {
+    background-color: rgb(76, 182, 67);
+}
+
+.form-control:focus {
+    border-color: rgb(53, 163, 43);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px silver;
+    font-weight: bold;
+}
+
+textarea {
+    resize: none;
+}
+
+body{
+    background-color: rgb(145, 214, 145) !important;
+}
+
+.container{
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+#botreg:focus {
+    font-weight: bolder;
+}
+
+h1{
+    color: red;
+}
+
+.has-error small{color:red;font-weight:normal;margin-left:5px;}
+#jumbotron-index{margin-top:50px;background:#666;color:#eee;}
